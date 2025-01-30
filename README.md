@@ -46,6 +46,6 @@ npm run dev
 ---
 
 ### 📝 Notes
--If you face any issues, ensure your API key is correctly placed in the .env file.
--Feel free to customize the app as needed!
+- If you face any issues, ensure your API key is correctly placed in the .env file.
+- Feel free to customize the app as needed!
 
