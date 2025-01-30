@@ -8,7 +8,6 @@ import { getForcastForDays } from "../api/weather";
 import WeatherList from "../components/WeatherList";
 
 export default function LocationDetails() {
-  // const name = useParams();
   const [searchParams] = useSearchParams();
   const location = searchParams.get("q");
 
@@ -80,6 +79,7 @@ export default function LocationDetails() {
   );
 }
 
+// function to convert the date: 2025-01-30 to day
 function getDay(val: string) {
   const date = new Date(val);
   const dayOfWeek = date.toLocaleDateString("en-US", { weekday: "long" });

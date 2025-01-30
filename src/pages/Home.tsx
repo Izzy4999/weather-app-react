@@ -17,12 +17,14 @@ function Home() {
     queryFn: () => getCurrentForLocationList(params),
   });
 
+  // to updpate the current data
   useEffect(() => {
     if (!isLoading && data && data?.length > 0) {
       removeUserLocation(data);
     }
   }, [data, isLoading, removeUserLocation]);
 
+  // Delete location
   const removeLocation = (lat: number, long: number) => {
     const newLocations = location.filter(
       (item) => item.location.lat !== lat || item.location?.lon !== long
@@ -81,6 +83,7 @@ function Home() {
 
 export default Home;
 
+// extract the longitude and latitude for each location and use to get their current data
 function extractLatLon(data: GetCurrentWeather[]): string[] {
   return data.map(({ location }) => `${location.lat},${location.lon}`);
 }

@@ -55,6 +55,7 @@ export default function AddLocation() {
     }
   }, [currentData, isSuccess, currentDataError, navigate, setLocation]);
 
+  // filter the searched location and remove location user already added
   useEffect(() => {
     if (data) {
       const filteredData = data?.filter(
