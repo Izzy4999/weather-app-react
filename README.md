@@ -15,3 +15,15 @@ Before getting started, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/your-username/weather-app.git
+```
+### 2. Navigate into the project directory
+
+```bash
+cd weather-app
+```
+### 3. Install dependencies
+
+```bash
+npm install
+```
+### 4.  Create an account on Weather API 🌍
