@@ -1,61 +1,17 @@
-Weather App
+# Weather App 🌦️
 
-This is a simple weather application that fetches weather data using the WeatherAPI.
+A simple weather application that fetches weather data using the Weather API.
 
-Getting Started
+## 📋 Prerequisites
 
-Follow the steps below to set up the project on your local machine.
+Before getting started, make sure you have the following installed:
 
-Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (v6 or higher)
 
-Ensure you have the following installed:
+## 🛠️ Installation
 
-Node.js
+### 1. Clone the repository
 
-Git
-
-Installation
-
-Clone the repository
-
-git clone <repository-url>
-
-Navigate into the project directory
-
-cd <project-folder>
-
-Install dependencies
-
-npm install
-
-API Setup
-
-Create an account on WeatherAPI
-
-Go to WeatherAPI
-
-Sign up and get your free API key
-
-Create an .env file in the root directory
-
-touch .env
-
-Add the following line to the .env file
-
-VITE_WEATHER_API=your_api_key_here
-
-Running the Project
-
-Start the development server:
-
-npm run dev
-
-Build the Project
-
-To create a production build, run:
-
-npm run build
-
-License
-
-This project is licensed under the MIT License.
+```bash
+git clone https://github.com/your-username/weather-app.git
